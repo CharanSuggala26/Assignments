@@ -1,0 +1,184 @@
+/* ----------Front fake editor CSS----------- */
+
+.tbdemo_selected_area,
+iframe .tbdemo_selected_area,
+.tbdemo_eicon {
+    opacity: 0;
+}
+
+.tbdemo_widget_edit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 25px;
+    border: 1px solid #F3BAFD;
+    background-color: transparent;
+    z-index: 1014;
+}
+
+i.tbdemo_eicon-edit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #F3BAFD;
+    z-index: 1015;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+i.tbdemo_eicon-edit:hover {
+    background-color: #f0abfc;
+}
+
+i.tbdemo_eicon-edit:before {
+    font-size: 11px;
+    color: #000000;
+}
+
+i.tbdemo_eicon-regenerate {
+    position: absolute;
+    right: 0px;
+    bottom: -19px;
+    width: 76px;
+    height: 18px;
+    z-index: 1016;
+    display: flex;
+    cursor: pointer;
+    opacity: 1;
+    background: url(../../ai/assets/images/ai_icon.svg) 4px center no-repeat rgb(0, 0, 0);
+    background-size: 13px;
+    border-radius: 0px 0px 3px 3px;
+    overflow: hidden;
+    font: normal normal bold 8px/18px Open Sans;
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    padding-left: 21px;
+}
+
+.e-con-inner .tbdemo_container_edit {
+    z-index: 10;
+}
+
+.tbdemo_column_edit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #F3BAFD;
+    background-color: transparent;
+    z-index: 1011;
+}
+
+i.tbdemo_eicon-handle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #9DA5AE;
+    z-index: 1016;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+i.tbdemo_eicon-handle:hover {
+    background-color: #818a96;
+}
+
+i.tbdemo_eicon-handle:before {
+    content: "\e9b4" !important;
+    font-size: 20px;
+    display: block;
+    padding: 2px;
+    color: #000000;
+}
+
+.tbdemo_container_edit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #F3BAFD;
+    background-color: transparent;
+    z-index: 1009;
+}
+
+.tbdemo_container_edit_settings {
+    display: flex;
+    height: 24px;
+    top: 1px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    background-color: #f3bafd;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: var(--e-a-font-family);
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    z-index: 1017;
+    pointer-events: all;
+}
+
+.tbdemo_container_edit_settings li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    color: #0c0d0e;
+    width: 25px;
+    transition: none;
+}
+
+.tbdemo_container_edit_settings li:hover {
+    background-color: #f0abfc;
+}
+
+.tbdemo_container_edit_settings-add {
+    border-radius: 7px 0 0 0;
+}
+
+.tbdemo_container_edit_settings-add:before {
+    content: "";
+    position: absolute;
+    border: solid transparent;
+    top: 2px;
+    border-right-color: #f3bafd;
+    border-width: 22px 12px 0 0;
+    right: calc(100% - 1px);
+}
+
+.tbdemo_container_edit_settings-remove:last-child {
+    border-radius: 0 7px 0 0;
+}
+
+.tbdemo_container_edit_settings:last-child:after {
+    content: "";
+    position: absolute;
+    border: solid transparent;
+    top: 2px;
+    border-left-color: #f3bafd;
+    border-width: 22px 0 0 12px;
+    left: calc(100% - 1px);
+}
+
+/* -----------END Front fake editor CSS--------------- */

@@ -1,0 +1,13 @@
+.img1
+{
+    width:200px;
+    float: left;
+    margin: 5px;
+}
+span{
+    color: crimson;
+}
+body{
+    margin: 40px;
+    display: block;
+}

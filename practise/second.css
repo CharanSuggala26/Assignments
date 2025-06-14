@@ -1,0 +1,10 @@
+#heading1{
+    color:rgb(55, 164, 231);
+    text-align:center;
+    text-decoration:underline;
+    text-transform:capitalize;
+    text-shadow:1px 1px 0px green;
+}
+.heading2{
+    color:rgb(4, 24, 61);
+}

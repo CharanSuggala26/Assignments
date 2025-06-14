@@ -1,0 +1,88 @@
+.elementor-kit-331292 {
+    --e-global-color-accent: #2270E2;
+    --e-global-color-secondary: #FFFFFF;
+    --e-global-color-primary: #212121;
+    --e-global-color-text: #4D4D4D;
+    --e-global-color-c742624: #FFFFFF;
+    --e-global-color-e0b99f2: #FFFFFF;
+    --e-global-color-45d598c: #FFFFFF;
+    --e-global-color-40b28bc: #000000;
+    --e-global-color-95d2432: #F4F8FD;
+    --e-global-color-0bbe810: #F3F4F6;
+    --e-global-color-cfcb5bb: #222222;
+    --e-global-color-fab3c72: #49A078;
+    --e-global-typography-primary-font-family: "Poppins";
+    --e-global-typography-primary-font-size: 60px;
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-primary-line-height: 1.1em;
+    --e-global-typography-secondary-font-family: "Poppins";
+    --e-global-typography-secondary-font-size: 45px;
+    --e-global-typography-secondary-font-weight: 500;
+    --e-global-typography-secondary-line-height: 1.1em;
+    --e-global-typography-text-font-family: "Poppins";
+    --e-global-typography-text-font-size: 18px;
+    --e-global-typography-text-font-weight: 300;
+    --e-global-typography-text-line-height: 1.6em;
+    --e-global-typography-accent-font-family: "Poppins";
+    --e-global-typography-accent-font-size: 14px;
+    --e-global-typography-accent-font-weight: 400;
+    --e-global-typography-0e838b8-font-family: "Poppins";
+    --e-global-typography-0e838b8-font-size: 30px;
+    --e-global-typography-0e838b8-font-weight: 500;
+    --e-global-typography-0e838b8-line-height: 36px;
+    --e-global-typography-48643ca-font-family: "Poppins";
+    --e-global-typography-48643ca-font-size: 18px;
+    --e-global-typography-48643ca-font-weight: 500;
+    --e-global-typography-48643ca-line-height: 1em;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-331292 {
+        --e-global-typography-primary-font-size: 28px;
+        --e-global-typography-primary-line-height: 1em;
+        --e-global-typography-secondary-font-size: 22px;
+        --e-global-typography-text-font-size: 15px;
+        --e-global-typography-text-line-height: 1.6em;
+        --e-global-typography-0e838b8-font-size: 24px;
+        --e-global-typography-0e838b8-line-height: 1.3em;
+        --e-global-typography-48643ca-font-size: 18px;
+        --e-global-typography-48643ca-line-height: 1.1em;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}

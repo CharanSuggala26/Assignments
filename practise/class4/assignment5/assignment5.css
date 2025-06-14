@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(32, 73, 178);
+    text-align: center;
+    color: aliceblue;
+    font-size:20px ;
+}
+a{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+}

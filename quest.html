@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="quest.css">
+    <title>Interview Preparation</title>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center mt-4 mb-4">Interview Preparation</h2>
+
+    <!-- Checkbox Options -->
+    <div class="checkbox-container mb-4">
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="softwareCheckbox">
+            <label class="form-check-label" for="softwareCheckbox">Software</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="hardwareCheckbox">
+            <label class="form-check-label" for="hardwareCheckbox">Hardware</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="entryLevelCheckbox">
+            <label class="form-check-label" for="entryLevelCheckbox">Entry Level</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="intermediateLevelCheckbox">
+            <label class="form-check-label" for="intermediateLevelCheckbox">Intermediate Level</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="advancedLevelCheckbox">
+            <label class="form-check-label" for="advancedLevelCheckbox">Advanced Level</label>
+        </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="button" class="btn btn-primary btn-block mb-4" onclick="showMotivationalPopup()">Submit</button>
+
+    <!-- Motivational Popup -->
+    <div class="motivational-popup" id="motivationalPopup">
+        <p class="mb-4">Great choice! You are on your way to success. Keep up the good work!</p>
+        <button class="btn btn-success btn-block" onclick="showOptions()">Let's Do It</button>
+    </div>
+
+    <!-- Options Container -->
+    <div class="options-container" id="optionsContainer">
+        <h4 class="text-center mt-4 mb-4">Choose an Option</h4>
+        <button class="btn btn-primary btn-block mb-2" onclick="startInterview()">Take Interview</button>
+        <button class="btn btn-info btn-block" onclick="showInsights()">Insights</button>
+    </div>
+
+    <!-- Question Container -->
+    <div class="question-container" id="questionContainer"></div>
+
+    <!-- Score Container -->
+    <div class="score-container mt-4" id="scoreContainer"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="quest.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,317 @@
+/* Checkout */
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .e-checkout__container {
+    display: flex;
+    grid-column-gap: unset;
+    grid-row-gap: unset;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .e-checkout__container .e-checkout__column-start {
+    float: left;
+    width: 55%;
+    margin-right: 5%;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .e-checkout__container .e-checkout__column-end {
+    width: 40%;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout #ship-to-different-address {
+    padding-left: 0px;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout h3 .woocommerce .tenweb-woocommerce-checkout #place_order {
+    cursor: pointer;
+}
+
+.woocommerce .tenweb-woocommerce-checkout form #customer_details .form-row.tenweb-animate-input .select2-container--default .select2-selection--single,
+.woocommerce .tenweb-woocommerce-checkout form #customer_details .form-row.tenweb-animate-input input,
+.woocommerce .tenweb-woocommerce-checkout form #customer_details .form-row.tenweb-animate-input select,
+.woocommerce .tenweb-woocommerce-checkout form #customer_details .form-row.tenweb-animate-input textarea,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout form .form-row.tenweb-animate-input .select2-container--default .select2-selection--single,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout form .form-row.tenweb-animate-input input,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout form .form-row.tenweb-animate-input select,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout form .form-row.tenweb-animate-input textarea {
+    padding: 1.45em 0.8em 0.35em;
+    border: 1px solid #e3e1e1;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: normal;
+}
+
+body .woocommerce .tenweb-woocommerce-checkout form .form-row label:not(.checkbox):not(.woocommerce-form__label-for-checkbox) {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    color: #000000;
+    font-size: .7em;
+    font-weight: inherit;
+    margin-top: 0.35em;
+    padding: 0 1.1em;
+    line-height: 1.625;
+    opacity: 0;
+    height: auto;
+    width: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    clip: unset;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 95%;
+    text-overflow: ellipsis;
+    z-index: 1;
+    transition: all .2s ease-out;
+}
+
+body .woocommerce .tenweb-woocommerce-checkout form .form-row.tenweb-animate-input label:not(.checkbox):not(.woocommerce-form__label-for-checkbox) {
+    opacity: 1;
+}
+
+.tenweb-woocommerce-checkout #shipping_method label .woocommerce-Price-amount {
+    margin-left: 5px;
+}
+
+.tenweb-woocommerce-checkout #add_payment_method #payment ul.payment_methods li label,
+.tenweb-woocommerce-checkout .woocommerce-cart #payment ul.payment_methods li label,
+.tenweb-woocommerce-checkout .woocommerce-checkout #payment ul.payment_methods li label {
+    margin-left: 20px;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 1.4 !important;
+    font-size: 18px;
+    padding: 0;
+}
+
+.elementor-element .elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100% !important;
+}
+
+.woocommerce .tenweb-woocommerce-checkout form .form-row {
+    border: none;
+    padding: 7px;
+    position: relative;
+    margin: 0 0 6px;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout #customer_details .col-1,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout #customer_details .col-2,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout .woocommerce-additional-fields,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout #payment,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout .e-checkout__order_review {
+    padding: 0;
+    border: none;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .woocommerce-checkout #payment .payment_methods li input {
+    margin: 20px 0px 20px 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.tenweb-woocommerce-checkout ul {
+    list-style: none;
+    margin: 0;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout h3 {
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: 0;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .woocommerce-checkout #payment .payment_methods {
+    border: 1px solid #d6d7db;
+    border-radius: 5px;
+    background-color: #f9fbfc;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .woocommerce-checkout #payment .payment_methods li {
+    border-bottom: 1px solid #d6d7db;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .woocommerce-checkout #payment .payment_methods li .payment_box p {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout .shipping_address {
+    border: none;
+    padding: 0;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table {
+    border-radius: 4px;
+    border-bottom: none;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+}
+
+.tenweb-woocommerce-checkout table.shop_table,
+.elementor-widget-twbb_woocommerce-checkout-page .woocommerce .tenweb-woocommerce-checkout table.shop_table {
+    border: 1px solid #e3e1e1;
+    ;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table thead tr th,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table thead tr th {
+    padding: 1em 1.2em;
+    font-weight: 500;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table tbody tr td.product-name,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody tr td.product-name {
+    width: 100%;
+    align-items: center;
+    padding-right: 0;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table tr td,
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table tr th,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tr td,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tr th {
+    padding: 1.5em 1.2em;
+    line-height: 1.4em;
+    border-color: #e3e1e1;
+    font-weight: 400;
+    border-top: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table tr td:last-child,
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table tr th:last-child {
+    text-align: right;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table .tenweb-product-image {
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    padding-right: 7px;
+    vertical-align: middle;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table .tenweb-product-image img {
+    height: auto;
+    max-width: 100%;
+    max-height: 50px;
+    border-radius: 4px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .select2-container--default .select2-selection--single {
+    height: 55px;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table thead tr th,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table thead tr th {
+    padding: 1em 1.2em 1em 1.2em;
+    font-weight: 500;
+    line-height: 1.4em;
+    border-color: #dddddd;
+    border-top: 0;
+    border-right: 0;
+    font-size: 18px;
+}
+
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tr td {
+    padding: 1.5em 1.2em 1.5em 1.2em;
+    line-height: 1.4em;
+    border-color: #dddddd;
+    font-weight: 400;
+    border-top: 0;
+    font-size: 16px;
+    color: #979a9b
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table tfoot tr.order-total .amount,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot tr.order-total .amount {
+    font-weight: 700;
+}
+
+.woocommerce .tenweb-woocommerce-checkout .woocommerce-checkout-review-order-table tfoot tr.order-total th,
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot tr.order-total th {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.woocommerce .tenweb-woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tr th {
+    padding: 1.5em 1.2em 1.5em 1.2em;
+    line-height: 1.4em;
+    border-color: #dddddd;
+    font-weight: 400;
+    border-top: 0;
+    border-right: 0;
+    color: #979a9b;
+    font-size: 18px;
+}
+
+.tenweb-woocommerce-checkout .woocommerce-error {
+    border-top-color: #b81c23;
+}
+
+.tenweb-woocommerce-checkout .woocommerce-error,
+.tenweb-woocommerce-checkout .woocommerce-info:not(.woocommerce-form-coupon-toggle .woocommerce-info),
+.tenweb-woocommerce-checkout .woocommerce-message {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #515151;
+    border-top: 3px solid #a46497;
+    list-style: none outside;
+    zoom: 1;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.tenweb-woocommerce-checkout .woocommerce-error::before {
+    /*
+    content: '\e016';
+    */
+    color: #b81c23;
+}
+
+.tenweb-woocommerce-checkout .woocommerce-error {
+    border-top-color: #b81c23;
+}
+
+.tenweb-woocommerce-checkout .woocommerce-error li,
+.tenweb-woocommerce-checkout .woocommerce-info li,
+.tenweb-woocommerce-checkout .woocommerce-message li {
+    list-style: none outside !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .e-checkout__container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .e-checkout__container .e-checkout__column-start {
+        width: 100%;
+        margin-right: 0;
+    }
+    .elementor-widget-twbb_woocommerce-checkout-page .tenweb-woocommerce-checkout .e-checkout__container .e-checkout__column-end {
+        width: 100%;
+    }
+}

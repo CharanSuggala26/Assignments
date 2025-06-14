@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+table
+{
+    width:700px;
+    margin: auto;
+    text-align: center;
+    margin-top:50px;
+}
+th,tfoot
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+table
+{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}

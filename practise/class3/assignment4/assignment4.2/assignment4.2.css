@@ -1,0 +1,11 @@
+.img1{
+    margin:5px;
+    width:300px;
+float:left;
+}
+.img2
+{
+    display:inline;
+    width:400px;
+    float:right;
+}

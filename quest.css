@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.checkbox-container .form-check-input {
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+}
+
+.motivational-popup p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.options-container h4 {
+    color: #007bff;
+}
+
+.btn-block {
+    margin-bottom: 10px;
+}
+
+.score-container h4 {
+    color: #28a745;
+}

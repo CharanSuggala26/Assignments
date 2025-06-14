@@ -1,0 +1,363 @@
+.tenweb-woocommerce-cart:not(.elementor-widget-container .tenweb-woocommerce-cart) {
+    width: 100%;
+    padding: 100px
+}
+
+.tenweb-woocommerce-cart .e-cart-section {
+    padding: 0 !important;
+}
+
+.elementor-widget-twbb_woocommerce-cart .tenweb-woocommerce-cart .e-cart__container {
+    display: flex;
+    flex-wrap: nowrap;
+    grid-row-gap: inherit;
+    grid-column-gap: inherit;
+}
+
+.tenweb-woocommerce-cart .woocommerce-cart-form:not(.elementor-widget-container .woocommerce-cart-form),
+.tenweb-woocommerce-cart .e-cart__column-start {
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+}
+
+.tenweb-woocommerce-cart .e-cart__column-end {
+    width: 30%;
+    float: right;
+}
+
+.tenweb-woocommerce-cart .cart-collaterals:not(.elementor-widget-container .cart-collaterals) {
+    width: 30%;
+    float: right;
+}
+
+.tenweb-woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+}
+
+.woocommerce .tenweb-woocommerce-cart table.cart img,
+.woocommerce-page #content table.cart img,
+.woocommerce-page .tenweb-woocommerce-cart table.cart img {
+    height: auto;
+    width: auto;
+    max-width: 70px;
+}
+
+.woocommerce-error:not(.cart_totals .woocommerce-error),
+.woocommerce-info:not(.cart_totals .woocommerce-info),
+.woocommerce-message:not(.cart_totals .woocommerce-message) {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #515151;
+    border-top: 3px solid #6e7051;
+    list-style: none outside;
+    zoom: 1;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.button.tenweb-woocommerce-cart-coupon_link {
+    color: #ffffff;
+}
+
+.woocommerce-error::before,
+.woocommerce-info::before,
+.woocommerce-message::before {
+    font-family: WooCommerce;
+    content: '\e028';
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+}
+
+.tenweb-woocommerce-cart a.button {
+    border-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    padding: 18px 30px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.tenweb-woocommerce-cart table.shop_table thead {
+    position: relative;
+    background-color: #f1f1ef;
+    height: 58px;
+    line-height: 58px;
+}
+
+.tenweb-woocommerce-cart table.shop_table tbody {
+    position: relative;
+}
+
+.tenweb-woocommerce-cart .e-cart-section {
+    padding: 0;
+}
+
+.tenweb-woocommerce-cart table.shop_table tr {
+    position: relative;
+}
+
+.tenweb-woocommerce-cart .woocommerce-cart-form .woocommerce-cart-form__contents .product-remove,
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart table.cart td.product-remove {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 0;
+    border-style: none;
+}
+
+.tenweb-woocommerce-cart .woocommerce-cart-form .woocommerce-cart-form__contents .product-remove a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: #cccccc !important;
+    text-decoration: none;
+}
+
+.tenweb-woocommerce-cart .woocommerce-cart-form .woocommerce-cart-form__contents .product-remove a:hover {
+    border: 1px solid #000000;
+    color: #000000 !important;
+}
+
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart table.cart td span {
+    color: #808285;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart a:not(.remove):not(.add_to_cart_button):not(.restore-item):not(.wc-backward):not(.wc-forward):not(.tenweb-woocommerce-cart-coupon_link) {
+    color: #808285;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart .tenweb-coupon-link {
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart a.tenweb-woocommerce-cart-coupon_link {
+    font-size: 14px;
+}
+
+.tenweb-woocommerce-cart table.shop_table.woocommerce-cart-form__contents td,
+.tenweb-woocommerce-cart table.shop_table.woocommerce-cart-form__contents th,
+.woocommerce-page .tenweb-woocommerce-cart table.shop_table.woocommerce-cart-form__contents td,
+.woocommerce-page .tenweb-woocommerce-cart table.shop_table.woocommerce-cart-form__contents th {
+    border-bottom-width: 0;
+    padding: 0.7em 1em;
+    min-height: 3.25em;
+    min-width: 32px;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: #979a9b;
+    border-top: 1px solid #e9e9e9;
+}
+
+.tenweb-woocommerce-cart .quantity .qty {
+    width: 2.631em;
+}
+
+.woocommerce .tenweb-woocommerce-cart table.cart img {
+    width: auto;
+    max-width: 70px;
+}
+
+table.shop_table tbody tr>td.actions,
+.woocommerce-cart-form .coupon {
+    display: none !important;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart-collaterals .cart_totals table {
+    border: none;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart-collaterals .cart_totals td {
+    padding-left: 0;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart-collaterals .cart_totals .woocommerce-shipping-totals td {
+    padding-right: 0;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart_totals h2,
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart .cart_totals h2 {
+    color: #000000;
+    background-color: #f1f1ef;
+    padding: 0.7em 1em;
+    min-height: 3.25em;
+    min-width: 32px;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    margin: 0 -20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.tenweb-woocommerce-cart .twbb-minus-quantity,
+.tenweb-woocommerce-cart .twbb-plus-quantity {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart-collaterals table.shop_table td,
+.woocommerce .tenweb-woocommerce-cart .cart-collaterals table.shop_table th {
+    border-bottom: 1px solid #e9e9e9;
+    padding: 0.7em 1em;
+    min-height: 3.25em;
+    min-width: 32px;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: #979a9b;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart-collaterals .cart_totals {
+    padding: 0 20px 20px 20px;
+}
+
+.tenweb-woocommerce-cart .wc-proceed-to-checkout .coupon {
+    display: flex;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.tenweb-woocommerce-cart .wc-proceed-to-checkout input {
+    width: calc(72% - 10px);
+    margin-right: 10px;
+    padding: 0.75em;
+}
+
+.woocommerce .tenweb-woocommerce-cart .coupon .button,
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart .coupon a.button {
+    width: 28%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff !important;
+    background-color: var(--e-global-color-text, rgb(110, 112, 81));
+    border-color: rgb(110, 112, 81);
+    cursor: pointer
+}
+
+.woocommerce .tenweb-woocommerce-cart .coupon .button:hover,
+.elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart .coupon a.button:hover {
+    background-color: #000000;
+    border-color: #000000;
+    text-decoration: none;
+}
+
+.woocommerce .tenweb-woocommerce-cart .wc-proceed-to-checkout .checkout-button {
+    display: block;
+    padding: 20px 5px;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(110, 112, 81);
+    border-radius: 0;
+    min-height: auto;
+    margin-bottom: 0;
+}
+
+.woocommerce .tenweb-woocommerce-cart .wc-proceed-to-checkout .checkout-button:hover {
+    background-color: #000000;
+    border-color: #000000;
+    text-decoration: none;
+}
+
+.woocommerce .tenweb-woocommerce-cart tr td a {
+    color: rgb(110, 112, 81);
+}
+
+.tenweb-woocommerce-cart .woocommerce-shipping-methods {
+    list-style: none;
+    margin: 0;
+}
+
+.tenweb-woocommerce-cart .woocommerce-shipping-destination,
+.tenweb-woocommerce-cart .woocommerce-shipping-calculator {
+    display: none;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart_totals table.shop_table td .woocommerce-Price-amount {
+    float: right;
+}
+
+.woocommerce .tenweb-woocommerce-cart .cart_totals table.shop_table .woocommerce-shipping-totals td {
+    padding: 0.7em 1em 0.7em 1em;
+}
+
+.tenweb-woocommerce-cart .wc-proceed-to-checkout {
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .elementor-widget-twbb_woocommerce-cart .tenweb-woocommerce-cart .e-cart__container {
+        flex-direction: column;
+    }
+    .tenweb-woocommerce-cart .e-cart__column-start,
+    .tenweb-woocommerce-cart .e-cart__column-end {
+        width: 100%;
+    }
+    .elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart table.cart tr {
+        padding: 0;
+    }
+    .tenweb-woocommerce-cart .woocommerce-cart-form .woocommerce-cart-form__contents .product-remove,
+    .elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart table.cart td.product-remove {
+        position: relative;
+        transform: unset;
+    }
+    .elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart table.cart td,
+    .woocommerce-page .elementor-widget-twbb_woocommerce-cart .woocommerce .tenweb-woocommerce-cart #content table.cart td {
+        min-height: 3.25em;
+        padding: 0.7em 1em;
+        border: 1px solid #dddddd;
+    }
+    .elementor-widget-twbb_woocommerce-cart .quantity {
+        display: flex;
+        justify-content: end;
+    }
+    .woocommerce .tenweb-woocommerce-cart #content table.cart .product-thumbnail,
+    .woocommerce .tenweb-woocommerce-cart table.cart .product-thumbnail,
+    .woocommerce-page .tenweb-woocommerce-cart #content table.cart .product-thumbnail,
+    .woocommerce-page .tenweb-woocommerce-cart table.cart .product-thumbnail {
+        display: flex;
+        justify-content: center;
+    }
+    .woocommerce .tenweb-woocommerce-cart table.cart .product-thumbnail:before {
+        display: none;
+    }
+}

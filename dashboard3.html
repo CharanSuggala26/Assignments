@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Interview Preparation</title>
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #495057;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .checkbox-container {
+            margin-bottom: 20px;
+        }
+
+        .submit-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+        }
+
+        .motivational-popup {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .motivational-popup p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #28a745;
+        }
+
+        .lets-do-it-button {
+            margin-top: 20px;
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .options-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .options-container h4 {
+            color: #007bff;
+        }
+        .options-container .btn a{
+            text-decoration: none;
+            color: #f8f9fa;
+        }
+
+        .options-button {
+            margin-top: 10px;
+        }
+
+        .question-container {
+            margin-top: 20px;
+        }
+
+        .question-options button {
+            margin: 5px;
+            width: 80px;
+        }
+
+        .score-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .score-container h4 {
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Interview Preparation</h2>
+
+    <!-- Checkbox Options -->
+    <div class="checkbox-container">
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="softwareCheckbox">
+            <label class="form-check-label" for="softwareCheckbox">Software</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="hardwareCheckbox">
+            <label class="form-check-label" for="hardwareCheckbox">Hardware</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="entryLevelCheckbox">
+            <label class="form-check-label" for="entryLevelCheckbox">Entry Level</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="intermediateLevelCheckbox">
+            <label class="form-check-label" for="intermediateLevelCheckbox">Intermediate Level</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="advancedLevelCheckbox">
+            <label class="form-check-label" for="advancedLevelCheckbox">Advanced Level</label>
+        </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="button" class="btn btn-block submit-button" onclick="showMotivationalPopup()">Submit</button>
+
+    <!-- Motivational Popup -->
+    <div class="motivational-popup" id="motivationalPopup">
+        <p>Great choice! You are on your way to success. Keep up the good work!</p>
+        <button class="btn btn-success lets-do-it-button" onclick="showOptions()">Let's Do It</button>
+    </div>
+
+    <!-- Options Container -->
+    <div class="options-container" id="optionsContainer">
+        <h4>Choose an Option</h4>
+        <button class="btn btn-primary btn-block options-button" onclick="startInterview()"><a href="./last.html" >Take Interviews</a></button>
+        <button class="btn btn-info btn-block options-button" onclick="showInsights()"><a href="./insigths.html" >Insights</button>
+    </div>
+
+    <!-- Question Container -->
+    <div class="question-container" id="questionContainer"></div>
+
+    <!-- Score Container -->
+    <div class="score-container" id="scoreContainer"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    function showMotivationalPopup() {
+        document.getElementById("motivationalPopup").style.display = "block";
+    }
+
+    function showOptions() {
+        document.getElementById("optionsContainer").style.display = "block";
+    }
+
+    function startInterview() {
+        document.getElementById("optionsContainer").style.display = "none";
+    }
+
+    function showInsights() {
+        document.getElementById("optionsContainer").style.display = "block";
+    }
+</script>
+
+</body>
+</html>

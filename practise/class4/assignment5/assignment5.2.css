@@ -1,0 +1,15 @@
+
+body{
+    background-image:url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg");
+    background-image: no repeat;
+    background-size: cover;
+}
+.sai{
+    font-size:100px ;
+    text-align:center
+    color:var(--chartreuse-color);
+}
+body{
+    text-align: center;
+    color: chartreuse;
+}

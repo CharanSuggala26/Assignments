@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url('https://toppng.com/uploads/preview/stars-shine-space-bw-11570208102skrzkgw1wu.jpg');
+    background-repeat:no repeat;
+  }
+main{
+    min-height: 100px;
+}
+main .row{
+    display: flex;
+    justify-content: space-around;
+}
+main .avenger-card{
+    width:300px;
+    padding:15px;
+    text-align: center;
+    box-shadow: rgba(67, 65, 65, 0.73) 0px 54px 55px, rgba(255, 255, 255, 0.604) 0px -12px 30px, rgba(0, 0, 0, 0.356) 0px 4px 6px, rgba(0, 0, 0, 0.615) 0px 12px 13px, rgba(0, 0, 0, 0.626) 0px -3px 5px;
+    color:rgb(255, 183, 0);
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.203);
+}
+main img{
+    width:250px;
+    border-radius: 150px;
+    height:250px;
+}
+main button{
+    padding:7px;
+    border-radius: 4px;
+    background-color:cornflowerblue;
+    color:antiquewhite;
+    border:2px solid;
+    cursor: pointer;
+    font-size:1rem;
+}
+main button:hover{
+    background-color:darkturquoise;
+    color:black;
+}

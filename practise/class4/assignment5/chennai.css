@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(32, 73, 178);
+    text-align: center;
+    color: aliceblue;
+    font-size:20px ;
+}
+.img1{
+    margin: 50px;
+    width: 210px;
+    float: left;
+    height: 180px;
+    border
+}
+.img2{
+    margin: 50px;
+    width: 210px;
+    float: right;
+    height:180px;
+}  
+div{
+    margin: 50px;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}

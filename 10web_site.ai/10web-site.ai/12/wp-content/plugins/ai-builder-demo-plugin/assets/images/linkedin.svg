@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_106381" data-name="Group 106381" transform="translate(-1199)">
+    <rect id="Rectangle_44772" data-name="Rectangle 44772" width="20" height="20" transform="translate(1199)" fill="none"/>
+    <g id="Group_106380" data-name="Group 106380" transform="translate(-0.143 -0.142)">
+      <path id="Path_157788" data-name="Path 157788" d="M14,0H2A2,2,0,0,0,0,2V14a2,2,0,0,0,2,2H14a2,2,0,0,0,2-2V2A2,2,0,0,0,14,0Z" transform="translate(1201.143 2.142)" fill="#0079ba"/>
+      <g id="linkedin-logo" transform="translate(1203.302 4.302)">
+        <g id="post-linkedin" transform="translate(0 0)">
+          <path id="Path_157789" data-name="Path 157789" d="M6.42,15.22H4.02V8.02h2.4ZM5.22,6.66A1.44,1.44,0,1,1,6.66,5.22,1.434,1.434,0,0,1,5.22,6.66Zm10,8.56h-2.4V10.98a1.2,1.2,0,1,0-2.4,0v4.24H8.02V8.02h2.4v.96a2.584,2.584,0,0,1,2-1.12,2.835,2.835,0,0,1,2.8,2.8Z" transform="translate(-3.78 -3.78)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+.e-container {
+    padding-right: max(calc((100% - var(--content-width)) / 2 + var(--padding-right)), var(--padding-right)) !important;
+    padding-left: max(calc((100% - var(--content-width)) / 2 + var(--padding-left)), var(--padding-left)) !important;
+}
+
+body .elementor-progress-wrapper {
+    height: auto;
+}
+
+.theme-tenweb-website-builder-theme .pswp__caption {
+    display: none;
+}
+
+.woocommerce #content div[data-elementor-type=twbb_single].product div.images,
+.woocommerce div[data-elementor-type=twbb_single].product div.images,
+.woocommerce-page #content div[data-elementor-type=twbb_single].product div.images,
+.woocommerce-page div[data-elementor-type=twbb_single].product div.images {
+    width: 100%
+}

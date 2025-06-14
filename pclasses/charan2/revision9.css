@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(185, 156, 61);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+.google{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 300px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: rgb(230, 222, 222);
+    border-radius: 6px;
+}
+.gitHub{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 300px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: rgb(230, 222, 222);
+    border-radius: 6px;
+}
+.facebook{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 300px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: rgb(230, 222, 222);
+    border-radius: 6px;
+}
+.details{
+    width: 300px;
+    height: 30px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+.details1{
+    width: 300px;
+    height: 30px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+.line{
+    border-left: 5px solid bisque;
+    height: 680px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+.but{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height:30px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(64, 48, 233);
+    color:antiquewhite;
+}
+.right{
+    background-color: rgb(99, 55, 132);
+    text-decoration-color:white;
+    display:grid;
+    place-items: center;
+    padding: 50px;
+}
+.rat{
+    display:grid;
+    place-items: center;
+}

@@ -1,0 +1,30 @@
+:root{
+    --my-color:#666;
+}
+h1{
+    color:var(--mt-color)
+}
+ul{
+    font-size:30px;
+    color:chocolate;
+    list-style-type: circle;
+    text-align: center;
+    list-style-position:inside;
+}
+a{
+    font-size: 40px;
+    color:darkgoldenrod;
+}
+a:visited{
+    color:darkgreen;
+}
+a:hover{
+    color: burlywood;
+}
+a:active{
+    color:cyan;
+    font-style:italic;
+}
+a:focus{
+    color:darkred;
+}

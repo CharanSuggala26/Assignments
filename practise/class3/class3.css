@@ -1,0 +1,14 @@
+h1{
+    margin-top=100px;
+    background-color: blueviolet;
+    text-align: center;
+    color: var --yellow-color;
+}
+*{
+    margin:0;
+    border:0;
+}
+body{
+    background-image:linear-gradient(to right,orange,white,green);
+
+}

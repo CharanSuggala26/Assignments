@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Interview Dashboard</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .dashboard-container {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .motivational-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .motivational-popup p {
+            margin: 0;
+            font-style: italic;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 dashboard-container">
+            <h2 class="text-center mb-4">Interview Dashboard</h2>
+            
+            <!-- Job Roles -->
+            <div class="form-group">
+                <label for="jobRoles">Select Job Roles:</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="softwareCheckbox">
+                    <label class="form-check-label" for="softwareCheckbox">Software</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="hardwareCheckbox">
+                    <label class="form-check-label" for="hardwareCheckbox">Hardware</label>
+                </div>
+            </div>
+
+            <!-- Confirm Button -->
+            <button type="button" class="btn btn-primary btn-block" onclick="showMotivationalPopup()">Confirm</button>
+        </div>
+    </div>
+</div>
+
+<!-- Motivational Popup -->
+<div class="motivational-popup" id="motivationalPopup">
+    <p>Great choice! You are on your way to mastering your interview skills. Keep up the good work!</p>
+</div>
+  <!-- "Let's Do It" Button -->
+  <div class="row lets-do-it-container">
+    <div class="col-md-8 offset-md-2">
+        <button type="button" class="btn btn-lg lets-do-it-button" onclick="showAdditionalOptions()">Let's Do It</button>
+    </div>
+</div>
+
+<!-- Additional Options -->
+<div class="row lets-do-it-container" id="additionalOptions" style="display: none;">
+    <div class="col-md-8 offset-md-2">
+        <button type="button" class="btn btn-secondary btn-lg btn-block">Take Interview</button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block">Insights</button>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    function showMotivationalPopup() {
+        document.getElementById("motivationalPopup").style.display = "block";
+    }
+    
+    function showAdditionalOptions() {
+        document.getElementById("additionalOptions").style.display = "block";
+    }
+</script>
+
+</body>
+</html>

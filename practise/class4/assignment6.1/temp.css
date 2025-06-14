@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+    padding-bottom:50px;
+}
+img{
+    width:400px;
+    height:200px;
+}
+div{
+    padding-bottom:100px;
+    display:flex;
+    justify-content: space-around;
+}
+p{
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+body{
+    background-color: rgb(148, 245, 143);
+    text-align: center;
+}

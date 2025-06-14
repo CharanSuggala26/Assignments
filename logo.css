@@ -1,0 +1,31 @@
+body{
+    background-image: url('https://blog.talview.com/hs-fs/hubfs/AI_V.png?width=842&name=AI_V.png');
+    background-size: 100%;
+    background-image: no-repeat;
+}
+.but{
+    display: block;
+    margin-left: auto;
+    width: 180px;
+    height:180px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 140px;
+    font-size: 30px;
+    cursor: pointer;
+    border: 0;
+}
+button:hover{
+    background-color: rgb(245, 226, 167);
+    font-style:italic;
+    color:rgb(136, 40, 11);
+}
+p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    color: rgb(20, 12, 1);  
+}
+.but a{
+    text-decoration: none;
+}

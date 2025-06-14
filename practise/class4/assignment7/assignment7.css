@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvPVDQnT8ExSCmh9JwKVoJHa0s23XqLlWPew&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 30rem;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(213, 238, 230);
+}
+label{
+    font-size: 1.5rem;
+}
+input,select,textarea{
+    width: 100%;
+    font-size: 1.5rem;
+}
+div{
+    margin-bottom: 15px;
+}
+input[type="checkbox"],input[type="radio"]{
+    width: 15px;
+}
+button{
+    display: block;
+    margin: auto;
+    background-color:rgb(4, 65, 65);
+    padding: 5px;
+    cursor: pointer;
+    color:beige;
+    font-size: 1.3rem;
+}
+
+button:hover{
+    background-color:rgb(8, 153, 221);
+}
+p{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}

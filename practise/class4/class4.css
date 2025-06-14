@@ -1,0 +1,36 @@
+@import url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZnjJlYMXHoj7XrpGymU2hWGx4rAIp8-WZhU_NwER0Fw&s");rt
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(80, 78, 76);
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+}
+main
+{
+    min-height: 75vh;
+}
+footer{
+    background-color: rgb(80, 78, 76);
+    color :aliceblue;
+    text-align :center;
+    font-size: 2rem;
+}
+.profile{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 15px 15px 30px var(--grey-color);
+    border-radius: 10px;
+
+}
+img{
+    width:60%;
+    border-radius: 50%;
+}

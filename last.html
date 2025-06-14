@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="last.css">
+    <title>Software Interview Questions</title>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center mt-4 mb-4">Software Interview Questions</h2>
+
+    <!-- Question Container -->
+    <div class="question-container" id="questionContainer"></div>
+
+    <!-- Navigation Buttons -->
+    <div class="navigation-buttons mt-4">
+        <button class="btn btn-secondary" onclick="showPreviousQuestion()">Back</button>
+        <button class="btn btn-primary" onclick="showNextQuestion()">Next</button>
+        <button class="btn btn-success" onclick="endTest()">End Test</button>
+    </div>
+
+    <!-- Score Popup -->
+    <div class="score-popup" id="scorePopup">
+        <div class="score-content">
+            <p class="mb-4">Test Completed! Your Score: <span id="scoreValue">0</span></p>
+            <button class="btn btn-info" onclick="closeScorePopup()">Close</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="last.js"></script>
+
+</body>
+</html>
